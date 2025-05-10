@@ -5,11 +5,11 @@ Build a menubar app easily on macOS. Support both **SwiftUI** and **AppKit**.
 Open **XCode**, then **File** -> **Add Package Dependencies...**, on the new window, copy `https://github.com/boybeak/Tray.git` and paste it to search input.
 
 ## Usage
-Import `Tray` before use it.
+Import `Tray` before using it.
 ```swift
 import Tray
 ```
-Then, on your `AppDelegate` class, declare a class variable `private let tray = Tray()`. Then set arguments to the tray in `applicationDidFinishLaunching`, after that, install it.
+Then, in your `AppDelegate` class, declare a class variable `private let tray = Tray()`. Then set arguments to the tray in `applicationDidFinishLaunching`, after that, install it.
 ```swift
 class AppDelegate: NSObject, NSApplicationDelegate {
     
